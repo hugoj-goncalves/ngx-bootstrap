@@ -7,5 +7,5 @@ npx nx build ngx-bootstrap --runner=cloud --configuration=production
 pushd dist/ngx-bootstrap
 npm config set scope @eklesia
 npm config set access public
-npm publish
+npm publish --registry http://npm-registry.eklesiaonline.com.br:4873
 popd
